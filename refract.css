@@ -1,0 +1,54 @@
+.pricing {
+    width: 90%;
+    max-width: 280px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+    color: green;
+}
+
+.features {
+    list-style: none;
+    padding-left: 0;
+}
+
+.features li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+#pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(148, 185, 173);
+}
